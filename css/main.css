@@ -1,0 +1,41 @@
+ html {
+ 	box-sizing: border-box;
+ }
+
+ *, *::before, *::after {
+ 	box-sizing: inherit;
+ }
+
+ .masthead {
+ 	background-image: url("../images/logo.svg");
+ 	padding-top: 6em;
+ 	background-size: 75px auto;
+ 	background-repeat: no-repeat;
+ 	background-position: center 10px;
+ 	text-align: center;
+ }
+/*everything can have a background image*/
+/*background repeat-x will patter only horizontally and repeat-y is only vertical*/
+/*background images are behind the padding, so the padding will not affect the background images*/
+
+img {
+	width: 100%;
+	display: block;
+}
+
+.box {
+	background-color: #3b3a33;
+	padding: 1em;
+	text-align: center;
+}
+
+.btn {
+	display: inline-block;
+	padding: 0.5em 0.75em;
+	background-color: #a8ae98;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #fff;
+	background-image: linear-gradient(to bottom, #a8ae98, #5b5e52)
+}
+/*a tags can not have padding, add inline block. They automatically have ab inline property.*/
