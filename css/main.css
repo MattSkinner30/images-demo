@@ -6,6 +6,10 @@
  	box-sizing: inherit;
  }
 
+body {
+	margin: 0;
+}
+
  .masthead {
  	background-image: url("../images/logo.svg");
  	padding-top: 6em;
